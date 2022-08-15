@@ -13,7 +13,7 @@ header{
 
 	border: solid rgb(0, 129, 0) .3rem ;
 	padding: .3rem;
-	background-color: #5fcf80;
+	background-color:#0f9b6c;
 }
 
 header h3 {
@@ -21,14 +21,7 @@ header h3 {
 }
 
 .headerContainer{
-		display: flex;
-		flex-direction: column ;
-		align-content: flex-start;
-		background-color: #066623;
-		border-radius: 8%;
-		padding: .3rem;
-		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
+  background-color: #0f9b6c;
 } 
 
 
@@ -41,16 +34,21 @@ header h3 {
 	flex-direction: column;
 	justify-content: flex-end;
 
+}
 
+.headerContainer img {
+	margin-right: 10;
 }
 
 
 
 .headerContainer img{
-	border: double 3px rgb(9, 182, 9);
+	border: double 7px rgb(9, 182, 9);
 	border-radius: 20%;
 	margin-left: 8%;
 	margin-top: 5%;
+	margin-right: 3%;
+	dis
 }
 .headerContainer a:hover  { 
 	border: none;
@@ -198,21 +196,32 @@ a:active,a:hover {
 
 
 
+/*    ---------------- Header adjustment - ( my code isn't  entirely perfected yet...)       */ 
 
-
-
+.headerContainer img {
+	padding: .5rem;
+	margin: .4rem;
+}
 
 
 /*   Media Queries        */  
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 520px) {
 
 
 	.headerContainer{
 		display: flex;
 		flex-direction: row;
 		align-content: flex-end;
-		justify-content: space-between;
+		justify-content: space-around;
+		padding: 5px;
+		
 	} 
 
-} ;
+
+} 
+
+
+
+
+
