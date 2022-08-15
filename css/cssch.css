@@ -48,6 +48,11 @@ header h3 {
 	border: solid 1px darkgreen;
 	border-radius: 20%;
 }
+.headerContainer a:hover  { 
+	border: none;
+	border-color: transparent;
+}
+
 
 .headerContainer > h3 {
 
@@ -79,12 +84,24 @@ header h3 {
 
 
 
-.listMenu , .listMenu nav{ 
-	padding: .1rem;
+.listMenu , .listMenu nav .listMenu li{ 
+	padding: 0rem;
 	border: double green .2rem;
 	background-color: #5fcf80;
-	font-family:Verdana, Geneva, Tahoma, sans-serif
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
+
+
+.listMenu ul ul li {
+	padding-left: 15%;
+	margin-right: 10%;
+}
+.listMenu ul li {
+	display: flex;
+	justify-content: center;
+}
+
 
 		/*  TREEHOUSES COLOR  = #5fcf80 */ 
 		/*   - NOW IT BELONGS TO US -  */
@@ -96,7 +113,12 @@ header h3 {
 	}
 .htmlList , .cssList ,.jsList {
 	margin-left: -2.75rem;
+	display: block;
+	justify-content: center;
+	align-items: center;
+   
 }
+
 
 
 
@@ -155,6 +177,7 @@ a:active,a:hover {
 	border: 25% ;
 	padding:.08rem;
 	margin:5% ;
+	padding-left: 1%;
  }
 
 
@@ -163,8 +186,8 @@ a:active,a:hover {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #5fcf80;
 	color: black;
- }
 
+ }
 
 
 
