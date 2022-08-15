@@ -44,9 +44,13 @@ header h3 {
 
 }
 
+
+
 .headerContainer img{
-	border: solid 1px darkgreen;
+	border: double 3px rgb(9, 182, 9);
 	border-radius: 20%;
+	margin-left: 8%;
+	margin-top: 5%;
 }
 .headerContainer a:hover  { 
 	border: none;
