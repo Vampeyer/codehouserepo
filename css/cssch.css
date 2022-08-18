@@ -110,10 +110,13 @@ header h3 {
 .listMenu ul ul li {
 	padding-left: 15%;
 	margin-right: 10%;
+	border: #066623 solid;
 }
-.listMenu ul li {
+.listMenu ul li a {
 	display: flex;
 	justify-content: center;
+	border: #066623 solid;
+	
 }
 
 
@@ -221,6 +224,7 @@ p a:active , p a:hover {
 	padding: 1%;
 
  }
+
 
 
 
