@@ -25,6 +25,10 @@ header h3 {
 } 
 
 
+.headerContainer h3 {
+	font-family: "Signature";
+}
+
 .headerH3container {
 
 	padding-top: 2em;
@@ -58,10 +62,12 @@ header h3 {
 
 .headerContainer > h3 {
 
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: "Signature" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	padding: .5rem;
 	border: double green .2rem;
 	margin: .5rem .3rem;
+	font-weight: bold;
+	font-size: xx-large;
 	display: flex;
 	justify-content: space-around;
 }
@@ -75,6 +81,7 @@ header h3 {
 	border: #066623 dashed 2px;
 	margin-top: 1%;
 	padding: 3%;
+	font
 }
 
 
@@ -82,27 +89,48 @@ header h3 {
 	padding-right: 5%;
 }
 
-.linksTitle h5 a {
-	font-family: Arial ; 
+.linksTitle h5, .linksTitle a {
+	font-family:  Arial ; 
 	font-size: large;  
 	text-decoration: none;	
 }
 
-.linksTitle a {
+.linksTitle ul {
 	text-decoration: none;
+	
 }
 
-/*      */
+
+
+p a {
+	text-decoration: none;
+	text-size-adjust: 110%;
+}
+
+/*   text in top   */
+
+
+.mainTextTop { 
+	font-family: ;
+}
 
 /*List menu Start     */ 
 
 
+.linksTitle, .linkstitle{
+	font-family: "mighty";
+	font-size: xx-large;
+}
 
-.listMenu , .listMenu nav .listMenu li{ 
-	padding:1%;
+
+
+.listMenu , .listMenu nav, .listMenu li{ 
+
+	padding: 1%;
 	border: double green .1rem;
 	background-color: #5fcf80;
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
 
 
 }
@@ -112,11 +140,15 @@ header h3 {
 	padding-top: 5px;
 	border: #066623 solid;
 	margin-top: 5%;
+	padding-right: 20%;
+	font-size: small;
+	padding-left: 20%;
 }
 .listMenu ul li a {
 	display: flex;
 	justify-content: center;
-	border: #066623 solid;
+	border: #066623 solid 8px ;
+	border-collapse: collapse;
 
 	
 }
@@ -168,7 +200,15 @@ header h3 {
 .jsList li {
 	padding: .2rem;
 	border: double green .2rem;
-	margin:.35rem; }
+	margin:.35rem; 
+	padding-bottom: 4px;	
+}
+
+.jsList h4 {
+
+	padding: 3px;
+}
+	
 
 
 
@@ -187,6 +227,16 @@ h5 {
 	flex-direction: column;
 	align-items:center;
 	border: #066623 dotted .5rem;
+	border-radius: 20%;
+	border-bottom-left-radius: 10%;
+	font-family: "Signature", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: bolder;
+	font-size: 150%;
+}
+
+footer p {
+	padding: 2.5px;
+	padding-left: 3px;
 }
 
 
@@ -200,10 +250,12 @@ a:active,a:hover {
 	color: #000000; 
 	padding: .5rem ;
 	font-style: normal;
-	padding: auto;
+
 	transition: 500ms;
-	margin-bottom: 2% ;
+	margin-bottom: 4% ;
 	margin-top: 2%;
+	padding: 2px;
+
 
 }
 
@@ -213,22 +265,37 @@ a:active,a:hover {
 	border: 25% ;
 	padding:.08rem;
 	margin:5% ;
-	padding-left: 1%;
+	padding-left: 12%;
  }
 
 
  .linksTitle , .linksTitle a{
 	font-style: normal;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:"mighty" Arial, Helvetica, sans-serif;
 	background-color: #5fcf80;
 	color: black;
-	padding: 5%;
-	padding-top: 5%;
+	padding: 6.5%;
+	margin-right: 3px;
+	
+	
+
 
  }
 
 
 
+
+
+
+.headerAside p {
+	font-family:  Arial, Helvetica, sans-serif ;
+	font: 2em "mighty";
+}
+
+.headerAside i {
+	display: flex;
+	flex-direction: row;
+}
 
 
 
@@ -241,10 +308,41 @@ a:active,a:hover {
 }
 
 
+.largeLogoClass{
+	display: none;
+}
+
+/*   Now for some fonts, lets see. . . .    */ 
+ @font-face {
+	font-family: "Signature" ;
+	src: url(/font/Ambawang\ Signature.otf); format("otf");
+ }
+
+ @font-face {
+	font-family: "mighty" ;
+	src: url(/font/ANGELES\ PERSONAL\ USE.ttf); format("ttf");
+ }
+
+
+/* //////////////////////////////////////////// */
+
+
+
 
 
 
 /*   Media Queries        */  
+
+
+
+@media  and  (min-width:420px ){
+	header aside{
+		font 1em veranda;
+	}
+}
+
+
+
 
 @media screen and (min-width: 520px) {
 
@@ -253,14 +351,25 @@ a:active,a:hover {
 		display: flex;
 		flex-direction: row;
 		align-content: flex-end;
-		justify-content: space-around;
-		padding: 5px;
+		justify-content:f
 		
 	} 
+	.smallLogoClass img {
+		display: none;
+	}
+
+	.largeLogoClass {display: block;}
 
 
-} 
+	.headerContainer h3{
 
+		padding-right: 2px;
+	}
+
+	header {
+		padding: 2px;
+	}
+}
 
 
 
