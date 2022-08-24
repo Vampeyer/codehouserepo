@@ -21,6 +21,19 @@ solve the problem would it not?
 
 -- And then , Codehouse, 
 
+Code house is a demonstration of what should be code louisvilles private knowledge base and reference repository. 
+- first off , tree house was a application that I am trying to replace or more importantly do better than , 
+secondly , this is an open-repository style repository that I would like to give to code louisville. 
+
+
+This is supposed to be an example of a web dev 1  , knowledge based repo site , 
+I hope it to be added onto where evedr needed , and hopefully we can create our own web dev 2 , 
+data , 
+Q & A , 
+amd UX Design  / Code House designs that may be implemented into this , to further guide students and mentors alike through the numerous
+resources within each perspective field. 
+
+
 So,
 Welcome , I hope you enjoy my site. 
 This is a referencing site for developers , by developers , to help developers. 
@@ -65,10 +78,14 @@ p.s.    Permanent ownership donation bargain request price to teach new students
 This took me a whole lot of time to do myself , 
 It will certainly be MUCH more easy and much more accessable after the students can have a clear review site.
 Please consider donating at - jthompsonofficial0376@gmail.com     or at this address, 
+
+i cannot afford a 250$ tax ID# , please consider small donations here
 0x373911a7e00b8be900Ed4B46255f9019275B7F3d
 
+ty
 
-- ownership rights  ,  defaults  to transferin 3 months from now  on 
+/
+- ownership rights  ,  defaults  to transfer in 3 months from now  on 08/24/2022
 11/19/2022 to Code Louisville.  -
 
 ==============================

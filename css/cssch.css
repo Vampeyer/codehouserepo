@@ -18,15 +18,20 @@ header{
 
 header h3 {
 	background-color: #5fcf80;
+	display: flex;
+	justify-items: flex-s;
+
 }
 
 .headerContainer{
   background-color: #0f9b6c;
+
 } 
 
 
 .headerContainer h3 {
 	font-family: "Signature";
+
 }
 
 .headerH3container {
@@ -66,11 +71,14 @@ header h3 {
 	padding: .5rem;
 	border: double green .2rem;
 	margin: .5rem .3rem;
-	font-weight: bold;
-	font-size: xx-large;
-	display: flex;
-	justify-content: space-around;
+	font-weight: normal;
+	font-size: 250%;
+
+
+	
 }
+
+
 
 
 /*  Top done    */ 
@@ -81,8 +89,15 @@ header h3 {
 	border: #066623 dashed 2px;
 	margin-top: 1%;
 	padding: 3%;
-	font
+	font-size: large;
 }
+
+.mainTextTop  aside , .mainTextTop p{
+
+	font-size: large;
+}
+
+
 
 
 .htmlList p {
@@ -110,16 +125,14 @@ p a {
 /*   text in top   */
 
 
-.mainTextTop { 
-	font-family: ;
-}
+
 
 /*List menu Start     */ 
 
 
 .linksTitle, .linkstitle{
 	font-family: "mighty";
-	font-size: xx-large;
+	font-size: 250%;
 }
 
 
@@ -172,7 +185,7 @@ p a {
 
 
 
-
+/*   */ 
 
 .htmlList a , .cssList a, .jsList a{
 	text-decoration: none;
@@ -226,17 +239,21 @@ h5 {
 	display: flex;
 	flex-direction: column;
 	align-items:center;
-	border: #066623 dotted .5rem;
+	border: #066623 dotted .7rem;
 	border-radius: 20%;
 	border-bottom-left-radius: 10%;
-	font-family: "Signature", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+	font-family: "fancy", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-weight: bolder;
-	font-size: 150%;
+	font-size: 200%;
+	margin-right: 3px;
+
 }
 
 footer p {
-	padding: 2.5px;
-	padding-left: 3px;
+	margin-right: 10%;
+	margin-left: 55px;
+	
 }
 
 
@@ -274,8 +291,10 @@ a:active,a:hover {
 	font-family:"mighty" Arial, Helvetica, sans-serif;
 	background-color: #5fcf80;
 	color: black;
-	padding: 6.5%;
-	margin-right: 3px;
+	padding: .5%;
+	display: flex;
+	justify-content: center;
+	
 	
 	
 
@@ -285,16 +304,17 @@ a:active,a:hover {
 
 
 
+ article { 
+	font-size: larger;
+	padding: 0px 20px ;
+ }
+
+
 
 
 .headerAside p {
 	font-family:  Arial, Helvetica, sans-serif ;
-	font: 2em "mighty";
-}
-
-.headerAside i {
-	display: flex;
-	flex-direction: row;
+	font: 150% "mighty";
 }
 
 
@@ -315,12 +335,17 @@ a:active,a:hover {
 /*   Now for some fonts, lets see. . . .    */ 
  @font-face {
 	font-family: "Signature" ;
-	src: url(/font/Ambawang\ Signature.otf); format("otf");
+	src: url(/font/chintzy.ttf); format("ttf");
  }
 
  @font-face {
 	font-family: "mighty" ;
 	src: url(/font/ANGELES\ PERSONAL\ USE.ttf); format("ttf");
+ }
+
+ @font-face {
+	font-family: "fancy";
+	src: url(/font/Ambawang\ Signature.otf); format ("otf");
  }
 
 
@@ -334,26 +359,54 @@ a:active,a:hover {
 /*   Media Queries        */  
 
 
+.headerAside h2 {
+	
+}
 
-@media  and  (min-width:420px ){
-	header aside{
-		font 1em veranda;
+@media screen and (min-width:220px ){
+	.headerAside p {
+		font-family:  Arial, Helvetica, sans-serif ;
+		font: 2em "mighty";
+		display: flex;
+		justify-content: center;
 	}
+
+
+}
+
+@media screen and (min-width:420px ){
+
+	.headerAside p{
+		font-family:  Arial, Helvetica, sans-serif ;
+		font: 2.5em "mighty";
+	}
+
 }
 
 
 
 
-@media screen and (min-width: 520px) {
 
 
-	.headerContainer{
+@media screen and (min-width: 630px) {
+
+	.headerContainer h3{
 		display: flex;
-		flex-direction: row;
-		align-content: flex-end;
-		justify-content:f
-		
-	} 
+		justify-content: flex-start; }
+
+		.headerAside p{
+			font-family:  Arial, Helvetica, sans-serif; ;
+			font: 3.0em "mighty";
+		}
+
+	}
+
+
+
+	
+
+
+
 	.smallLogoClass img {
 		display: none;
 	}
@@ -369,6 +422,15 @@ a:active,a:hover {
 	header {
 		padding: 2px;
 	}
+
+	.linksTitle, .linkstitle{
+		font-family: "mighty";
+		font-display:
+		
+	}
+
+
+
 }
 
 
